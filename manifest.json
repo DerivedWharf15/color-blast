@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Color Blast",
+    "version": "1.0.1",
+    "description": "Play Color Blast anytime offline on your browser",
+    "icons": {
+	"128": "icons/128.png",
+	"96": "icons/96.png",
+	"72": "icons/72.png",
+	"64": "icons/64.png",
+	"48": "icons/48.png",
+	"32": "icons/32.png",
+	"24": "icons/24.png",
+	"16": "icons/16.png"
+    },
+    "browser_action": {
+	"default_icon": {
+	    "128": "icons/128.png",
+	    "96": "icons/96.png",
+	    "72": "icons/72.png",
+	    "64": "icons/64.png",
+	    "48": "icons/48.png",
+	    "32": "icons/32.png",
+	    "24": "icons/24.png",
+	    "16": "icons/16.png"
+	}
+    },
+    "background": {
+	"scripts": [ "background.js" ]
+    },
+    "offline_enabled": true
+}
